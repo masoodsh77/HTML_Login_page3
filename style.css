@@ -1,0 +1,116 @@
+@font-face{
+    font-family: 'Sans';
+    src: url(../Fonts/WorkSans-VariableFont_wght.ttf);
+}
+body , html {
+    font-family: 'Sans';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(./backgroung.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.15;
+}
+.login{
+    background: rgb(160,12,213);
+    background: linear-gradient(0deg, rgba(160,12,213,1) 0%, rgba(142,73,226,1) 50%, rgba(0,82,255,1) 100%);
+    width: 20rem;
+    height: 35rem;
+    z-index: 2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    background-color: white ;
+    border-radius: 50%;
+    padding: 15px;
+}
+.title{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.formInputs{
+    border-bottom: 1px white solid;
+    width: 80%;
+    margin: 15px 0 5px 0 ;
+}
+.formInputs input{
+    background: none;
+    color: white;
+    border: none;
+    margin: 0 5px;
+    height: 35px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}  
+:-ms-input-placeholder { 
+   color: white;
+} 
+::-ms-input-placeholder {
+   color: white;
+}
+.tools{
+    width: 82%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;    
+}
+.submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.submit button{
+    background: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 50px;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.forget{
+    height: 9rem;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    cursor: pointer;
+}
